@@ -1,0 +1,25 @@
+{
+  "name": "elasticsearch",
+  "version": "1.0.0",
+  "description": "Study Project - Learn By Doing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarviana/elasticsearch.git"
+  },
+  "keywords": [
+    "elasticsearch"
+  ],
+  "author": "Cesar Viana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarviana/elasticsearch/issues"
+  },
+  "homepage": "https://github.com/cesarviana/elasticsearch#readme",
+  "dependencies": {
+    "hapi": "^17.6.0"
+  }
+}
