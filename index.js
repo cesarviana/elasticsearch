@@ -7,6 +7,8 @@ const server = Hapi.server({
   host: 'localhost'
 })
 
+server.route(require('./routes/hello.js'))
+
 const init = async () => {
   await server.start()
   console.log(`Server running at: ${server.info.uri}`)
